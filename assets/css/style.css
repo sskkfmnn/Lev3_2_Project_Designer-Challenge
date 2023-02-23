@@ -1,0 +1,166 @@
+/* Font: Roboto
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+body{
+    font-family: "Roboto";
+}
+
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+
+#section1_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1_header img{
+    width: 50px;
+    margin: 30px 2px 0 30px;
+}
+
+.article1_header p:nth-of-type(1){
+    margin: 30px 0 0 10px;
+    font-size: 20px;
+}
+
+.article1_header p:nth-of-type(2){
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.article2_header{
+    padding: 40vh 0 0 0;
+}
+
+.article2_header h1{
+    font-size: 70px;
+    width: 50vw;
+    padding-bottom: 5vh;
+}
+
+.article2_header p:nth-of-type(1){
+    width: 32vw;
+    margin-bottom: 20vh;
+}
+
+.article2_header p:nth-of-type(2){
+    color: #ff3571;
+    padding-bottom: 20vh;
+}
+
+.div2_header{
+    background-image: url("../img/ilustracion_header.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div2_header img{
+    width: 35vw;
+}
+
+
+/* MAIN */
+/* MAIN */
+/* MAIN */
+
+#section1_main{
+    text-align: center;
+}
+
+#section1_main img{
+    height: 75vh;
+    margin-bottom: 40vh;
+}
+
+#article1_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30vh;
+}
+
+#article1_main h3{
+    font-size: 40px;
+    width: 40vw;
+    padding-left: 18vw;
+
+}
+
+#article1_main p{
+    width: 60vw;
+    padding-left: 40px;
+    padding-right: 18vw;
+}
+
+.article2_main{
+    font-size: 40px;
+    width: 60vw;
+    padding-left: 18vw;
+    margin-bottom: 30vh;
+}
+
+#section2_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30vh;
+    gap: 10px;
+}
+
+#section2_main div{
+    width: 2vw;
+}
+
+.div1_main{
+    margin-left: 7vw;
+}
+
+.div3_main{
+    margin-left: 7vw;
+}
+
+#section2_main article{
+    width: 40vw;
+    word-spacing: 5px;
+}
+
+#section2_main h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#section2_main p{
+    width: 30vw;
+    margin-bottom: 50px;
+}
+
+#section3_main{
+    text-align: center;
+}
+
+#section3_main p:nth-of-type(1){
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#section3_main p:nth-of-type(2){
+    width: 45vw;
+    margin-left: 27vw;
+    margin-bottom: 20vh;
+}
