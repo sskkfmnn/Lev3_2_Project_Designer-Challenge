@@ -339,7 +339,8 @@ body{
     padding: 20px;
     margin: 0 auto;
     margin-bottom: 20px;
-    background-color:#FFF;
+    background-color: #dddddd;
+    border: none;
 }
 
 .submit{
@@ -348,6 +349,7 @@ body{
     width: 20vw;
     margin: 0 auto;
     padding: 10px;
+    border: none;
 }
 
 #article1_footer{
